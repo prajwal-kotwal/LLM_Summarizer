@@ -1,0 +1,15 @@
+
+
+
+# original one
+PROMPT_TEMPLATE = """
+Summarize the following text in a clear, concise, and informative manner:
+{text}
+"""
+
+
+#modified one
+PROMPT_TEMPLATE = """
+Summarize the following text in a clear, concise, and informative manner. Be sure to include the main characters, key events, and important plot points:
+{text}
+"""
