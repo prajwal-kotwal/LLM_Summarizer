@@ -11,7 +11,7 @@ genai.configure(api_key=GG.Google_api_key)
 model = genai.GenerativeModel(
     'gemini-1.5-flash',
     generation_config=genai.GenerationConfig(
-        max_output_tokens=20000,
+        max_output_tokens=500,
         temperature=0.9,
     ))
 
